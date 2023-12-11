@@ -23,4 +23,24 @@ then go to the folder and run:
     then go to the folder and run just run clj 
         - "clj main.clj"
 # <center>elixir<center>
+    to run it you need setup elixir env:
+- windows:
+    - install erland
+        go to https://www.erlang.org/downloads, download and install erlang
+    - install elixir
+        go to https://elixir-lang.org/install.html#windows, download and install elixir
+- Linux:
+    - Debian:
+        - run those command:
+            - "sudo apt-get install erlang"
+            - "sudo apt-get install elixir"
+    - Arch:
+        - run this command:
+            - "sudo pacman -S erlang elixir"
+    to run it, got to the folder and run:
+- "elixir main.ex"
 # <center>Language C<center>
+    GCC (GNU Compiler Collection) est normalement utilisable sur tout les linux et est installer de base comme compiler pour les utilisateur de windows telecharger l'installer https://mingw-w64.org/doku.php, executer l'installeur et suiver seulement les instruction,et installez le GCC compiler
+    
+    apres pour run le program il faut aller dans le dossier ou il a le fichier, et seulement run la commande
+- "gcc main.c"
